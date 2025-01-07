@@ -154,7 +154,7 @@ footer {
 
 /*Página 2*/
 .galeria-legenda {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 70px;
     background-color: #D7AA2C;
     border-radius: 30px;
@@ -262,7 +262,7 @@ footer {
     padding: 37px;
     border-radius: 20px;
     max-height: 330px;
-    margin-top:50px;
+    margin-top: 15px;
 }
 .estagiario img{
     width: 330px;
