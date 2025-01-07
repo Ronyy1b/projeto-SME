@@ -1,0 +1,279 @@
+body {
+    background-image: url(../imagens/mainbackground.jpg);
+    font-family: 'Aoboshi One', 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.cabec-elementos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* manda pras extremidades*/
+    background-color: #D7AA2C;
+}
+
+#lapis,
+#brasao {
+    max-width: 60px;
+    object-fit: cover;
+}
+
+#logo {
+    height: 65px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.menu-inicial ul {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 35%;
+}
+
+li a {
+    color: black;
+}
+
+li:hover {
+    border-bottom: solid 4px #7b5193;
+}
+
+/*main*/
+.container-inf {
+    display: flex;
+    margin-inline: 8vw;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.conj-descr {
+    background-color: #D7AA2C;
+    height: 558px;
+    padding: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.img-inicial img {
+    height: 363px;
+    width: 496px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.legenda-foto {
+    margin-top: 20px;
+    font-size: 15px;
+    max-height: 90px;
+    overflow-y: scroll;
+    text-align: justify;
+    overflow-wrap: break-word;
+    scrollbar-width: 10px;
+}
+
+/* Adicionar o webkit-scrollbar para funcionar em outros navegadores*/
+
+.legenda-foto.lamarelo {
+    scrollbar-color: #7b5193 #D7AA2C;
+    max-width: 510px;
+}
+
+.conj-sec-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secretario {
+    background-color: #7b5193;
+    display: flex;
+    width: 407px;
+    height: 140px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.img-sec img {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: #D9D9D9 solid 6px;
+}
+
+.cargo p {
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+.local {
+    background-color: #7b5193;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    padding-top: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.img-local img {
+    width: 331px;
+    height: 221px;
+    border: #D9D9D9 solid 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.legenda-foto.lroxo {
+    scrollbar-color: #D7AA2C #7b5193;
+    margin-left: 20px;
+    max-width: 350px;
+}
+
+footer {
+    background-color: #D7AA2C;
+    text-align: center;
+    padding: 2px;
+}
+
+/*Página 2*/
+.galeria-legenda {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    background-color: #D7AA2C;
+    border-radius: 30px;
+    margin-inline: 70px;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 60px;
+    margin-top: 10px;
+    margin-bottom: 140px;
+
+}
+
+.conj-polaroid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conj-polaroid.img2 {
+    margin-bottom: -100px;
+}
+
+.alfinete img {
+    width: 20px;
+    margin-bottom: -14px;
+    position: relative;
+    z-index: 1;
+}
+
+.alfinete.img1 img {
+    right: 10px;
+    transform: rotate(-5deg);
+}
+
+.alfinete.img2 img {
+    left: 10px;
+    transform: rotate(5deg);
+}
+
+.alfinete.img3 img {
+    left: 10px;
+    transform: rotate(5deg);
+}
+
+.polaroid-h img {
+    width: 297.5px;
+    height: 225px;
+    border: 15px solid #FFFFFF;
+    border-bottom: 40px solid #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.polaroid-v img {
+    width: 225px;
+    max-height: 280px;
+    border: 15px solid #FFFFFF;
+    border-bottom: 40px solid #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.polaroid-h.img1 {
+    transform: rotate(-5deg);
+}
+
+.polaroid-h.img3 {
+    transform: rotate(5deg);
+}
+
+.polaroid-v.img2 {
+    transform: rotate(5deg);
+}
+
+.estagio-legenda {
+    display: flex;
+    margin: 70px 60px 0px 60px;
+}
+
+.estagio-legenda p {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.conj-equipe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 70px;
+    color:#FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.estagiario , .equipe{
+    background-color: #7b5193;
+    padding: 37px;
+    border-radius: 20px;
+    max-height: 330px;
+    margin-top:50px;
+}
+.estagiario img{
+    width: 330px;
+    height: 230px;
+    border: 5px solid #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.equipe img{
+    width: 500px;
+    height: 230px;
+    border: 5px solid #000000; /* trocar para branco depois ffffff*/
+    margin-bottom: 10px;
+}
+
