@@ -59,7 +59,7 @@
     }
 
     .local {
-        padding: 60px 0 20px 0;
+        padding: 40px 0 20px 0;
     }
 
     .img-local img {
@@ -96,5 +96,6 @@
     }
     .estagiario img , .equipe img{
         width: 240px;
+        object-fit: cover;
     }
 }
