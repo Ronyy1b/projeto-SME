@@ -25,7 +25,7 @@
     .conj-descr {
         width: auto;
         height: 413px;
-        padding-top: 30px
+        padding: 30px 0 20px 0;
     }
 
     .img-inicial img {
@@ -36,7 +36,7 @@
 
     .legenda-foto {
         font-size: 13px;
-        max-height: 65px;
+        max-height: 60px;
         width: 280px;
         margin-top: 10px;
     }
