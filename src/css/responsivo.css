@@ -93,6 +93,8 @@
     .conj-equipe{
         flex-direction: column;
         margin-top: -50px;
+        gap: 20px;
+        font-size: 14px;
     }
     .estagiario img , .equipe img{
         width: 240px;
