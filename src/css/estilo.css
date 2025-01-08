@@ -276,7 +276,7 @@ footer {
 .equipe img{
     width: 500px;
     height: 230px;
-    border: 5px solid #000000; /* trocar para branco depois ffffff*/
+    border: 5px solid #FFFFFF; 
     margin-bottom: 10px;
 }
 
